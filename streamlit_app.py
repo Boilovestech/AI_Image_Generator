@@ -66,7 +66,7 @@ with st.sidebar:
     st.write("[Visit my GitHub](https://github.com/Boilovestech)")
 
 # Main content
-st.title("AI Image Generator 🖼️🤖 (version 1.0.0)")
+st.title("LostWonders AI 🖼️🤖 (version 1.0.0)")
 
 model_name = st.session_state.get('model_name', None)
 
