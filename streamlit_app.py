@@ -95,7 +95,7 @@ prompt = st.text_area("Enter your prompt", height=100)
 st.subheader("Model Selection")
 
 # Create model buttons
-model_button("SDXL Flash", "image1.jpg", "sd-community/sdxl-flash")
+model_button("SDXL Flash", "image1.png", "sd-community/sdxl-flash")
 model_button("Stable Diffusion v1.5", "image2.jpg", "runwayml/stable-diffusion-v1-5")
 model_button("Kolors", "image3.webp", "Kwai-Kolors/Kolors")
 
