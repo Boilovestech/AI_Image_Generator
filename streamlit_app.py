@@ -114,7 +114,7 @@ height = st.slider("Image height", 256, 1024, 512, 64)
 # Function to generate image using Hugging Face Inference API
 def generate_image(prompt, model_name, num_inference_steps, guidance_scale, negative_prompt, width, height):
     API_URL = f"https://api-inference.huggingface.co/models/{model_name}"
-    headers = {"Authorization": f"Bearer {st.secrets('HUGGINGFACE_API_KEY')}"}
+    headers = {"Authorization": st.secrets['HUGGINGFACE_API_KEY']}"}
 
     payload = {
         "inputs": prompt,
